@@ -1,0 +1,128 @@
+*{margin: 0;padding: 0;}
+/* 导航*/
+#logo{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    /*border: 1px solid black;*/
+        }
+#logo img{
+    height: 100%;
+		}
+/* 建立一个包裹层*/
+#wrap{
+	width: 1100px;
+	margin: 0px auto 0px auto;
+		}
+/* 导航栏*/	
+#header{
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    position: relative;
+    /*border: 1px solid black;*/
+}	
+#header li{
+	color: black;
+	display: inline-block;
+	list-style: none;
+	font-size: 36px;
+    margin: 16px 80px;
+}
+#header a{
+	color: #000000;
+}
+#header a:hover{
+	color: #00AC71;
+	text-decoration: none;
+}
+#header a.act1{
+	color: #00AC71;
+}
+#header a.act2{
+	color: #00AC71;
+}
+#header a.act3{
+	color: #00AC71;
+}
+#header a.act4{
+	color: #00AC71;
+}
+
+.hr_line{
+	margin: 60px auto;
+	width: 1200px;
+	color: #00AC71;
+}
+/* 主体部分*/
+#main{
+	margin: 30px auto;
+	text-align: center;
+	width: 1100px;
+	position: relative;
+	/*border: 1px solid black;*/
+}
+/* 定义标题样式*/
+.head_line{
+	margin: 0 auto 80px auto;
+	text-align: center;
+	font-size: 32px;
+}
+/* 定义主要内容样式*/
+.word_content{
+	text-indent: 2em;
+	font-size: 24px;
+	text-align: center;
+}
+/* 加入我们*/
+.join_{
+	width: 100%;
+	height: 600px;
+    padding:10px;
+    margin: 30px auto 0px auto;
+	text-align: center;
+	position: relative;
+	/*border: 1px solid black;*/
+}
+.join_box_left,.join_box_right{
+	width: 320px;
+	height: 320px;
+	display: inline-block;
+	border: 2px solid #FFFFFF;
+}
+
+.join_box_left{
+	float: left;
+	margin: 30px 100px;
+	padding: 10px;
+
+}
+.join_box_right{
+    float: right;
+    margin: 30px 100px;
+    padding: 10px;
+
+}
+.join_box_left img{
+	width: 280px;
+	margin-top: 10px;
+}
+.join_box_right img{
+	width: 300px;	
+}
+/* 页脚*/
+#footer{
+	width: 100%;
+	margin: 20px auto 30px auto;
+	/*border: 1px solid black;*/
+}
+#footer h4{
+	text-align: center;
+}
+#footer p{
+	font-size: 12px;
+	float: right;
+    right: 90px;
+    bottom: 10px;
+}

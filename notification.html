@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>社区公告</title>
+		<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"rel="stylesheet">
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/framework.css" />
+		<script type="text/javascript" src="js/framework.js"></script>
+		<style type="text/css">
+
+		.header_sign{
+			width: 80px;
+			height: 6px;
+			background-color: #00AC71;
+			position: absolute;
+			left: 628px;      //156  392 628+236
+			top: 72px;
+		    }
+		.inform{
+			width: 100%;
+			height: 800px;
+			position: relative;
+			text-align: left;
+			padding-top: 60px;
+			border: 1px solid #00AC71;
+		       }
+		.inform ol{
+			margin-top: 20px;
+			margin-bottom: 10px;
+			padding-left: 60px;
+		       }
+		.inform li{
+			font-size: 24px;
+			text-align: left;
+                   } 
+
+        .inform_time,.inform_result{
+        	display: inline-block;
+        }
+        .inform_connection{
+        	font-size: 24px;
+        	float:left;
+        	margin-left: 60px;
+            margin-right: 330px;	
+        }
+        .inform_connection p a{
+        	color: black;
+        }
+        .inform_connection p a:hover,a:active{
+        	color: #00AC71;
+        }
+        .inform_time{
+        	font-size:24px;	
+        	color: #000000;
+        }
+        .inform_result{
+        	font-size: 24px; 
+        	float: right;
+        	margin-right: 50px;
+        	margin-left: 30px;
+        }
+        .inform_result_over{
+        	color: grey;
+        }
+        .inform_result_readly{
+        	color: #00AC71;
+        }
+		</style>
+	</head>
+	<body>
+		<div id="logo">
+    	<img src="img/logo/logo.zhengzhou.png" alt="图片暂时无法加载" />
+    </div>
+        <div id="wrap">
+    	   <div id="header">
+    	    <nav>
+    	    <ul>
+    	   	<li><strong><a href="home.html">首页</a></strong></li>	
+    	    <li><strong><a href="menber_introdunction.html">成员</a></strong></li>	
+    	    <li><strong><a class="act3" href="notification.html">公告</a></strong></li>	
+    	    <li><strong><a href="join.html">加入</a></strong></li>	
+    	 	</ul >	
+    	   	</nav>
+    	 	<div class="header_sign"></div>
+    	   </div>
+    	   <hr class="hr_line" />
+    	      
+    	      	<div id="main">
+    	      	  <div class="inform">
+    	      	  	<h1 class="head_line">公告</h1>    	      	 
+    	      	  <div class="inform_table">
+    	      	  	  <div class="inform_connection">
+    	      	  	    <p><a href="#">1.第一次线下沙龙活动通知</a></p>
+    	      	  		   </div>
+    	      	         <div class="inform_time">
+    	      	  			<p>2016.02.06</p>
+    	      	  	     </div>
+    	      	  		   <div class="inform_result">
+    	      	  			<p class="inform_result_over">已结束</p>	
+    	      	  		   </div>
+    	      	  </div>
+    	      	         <hr />
+    	      	         
+    	      	   <div class="inform_table">
+    	      	  	   <div class="inform_connection">
+    	      	  		 <p><a href="#">2.第二次线下沙龙活动通知</a></p>
+    	      	  	   </div>
+    	      	  		   <div class="inform_time">
+    	      	  			 <p>2016.03.06</p>
+    	      	  		   </div>
+    	      	  		     <div class="inform_result">
+    	      	  			   <p class="inform_result_readly">准备中</p>	
+    	      	  		     </div>
+    	      	  	</div>
+    	      	         <hr />
+    	      	  	
+    	      	  </div>
+    	        </div>
+    	      <div class="join_">
+                      <h1 class="head_line">加入我们</h1>
+                      <p class="word_content">       不论你是技术大牛，还是前端菜鸟，亦或是对编程感兴趣的新人，
+                      	如果你对我们郑州线下交流活动感兴趣，现在就加入我们吧。很棒的是，线下交流，向大牛取经，
+                      	这一切都是免费的！</p>
+                         <div class="join_box_left" id="git" onmouseout="join_git1()" onmousemove="join_git2()">
+                         	<img class="join_img" src="img/icon/git.png" alt="图片暂时无法加载" />
+                         </div>
+                      	   <div class="join_box_right"id="wx" onmouseout="join_wx1()" onmouseover="join_wx2()">
+                      	   	<img class="join_img" src="img/icon/wx.jpg" alt="图片暂时无法加载" />
+                      	   </div>
+              </div>        	   
+    	      
+        </div>
+    	<div id="footer">
+    	             <h4>版权所有</h2>
+    	             	<p>豫第9580号.pc2588069</p>
+    	 </div>
+	</body>
+</html>

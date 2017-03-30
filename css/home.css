@@ -1,0 +1,83 @@
+*{margin: 0;padding: 0;}
+/*导航栏*/
+.header_sign{
+	width: 80px;
+	height: 6px;
+	background-color: #00AC71;
+	position: absolute;
+	left: 156px;
+	top: 72px;
+}
+/* FCC简介*/	
+.fcc_introdunction{
+	width: 100%;
+	padding:10px;
+	/*border: 1px solid black;*/
+}
+/* 能学到的技术简介*/
+.learn_content{
+	width: 100%;
+	height: 500px;
+	margin-top: 120px;
+	/*border: 1px solid black;*/
+}
+.learn_content a{
+  display: inline-block;
+  text-decoration: none;
+  -webkit-transition: -webkit-transform 0.8s ease 0s;
+  transition: transform 0.8s ease 0s;
+  
+  -webkit-transform-origin: 50% 0px 0px;
+  -ms-transform-origin: 50% 0px 0px;
+  -moz-transform-origin: 50% 0px 0px;
+  transform-origin: 50% 0px 0px;
+  
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.learn_content .col-xs-3 a:hover{
+  -webkit-transform: rotateY(360deg) translateY(-30px);
+  -moz-transform: rotateY(360deg) translateY(-30px);
+  -ms-transform: rotateY(360deg) translateY(-30px);
+  transform: rotateY(360deg) translateY(-30px);
+}
+.learn_content img{
+	width: 100px;
+	margin-bottom: 30px;
+}
+.learn_content h4{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+/* 线下活动场景*/
+.activity{
+	width: 100%;
+	height: 800px;
+    padding:10px;
+    margin: 30px auto 60px auto;
+	text-align: center;
+	/*border: 1px solid black;*/
+}
+.activity_box_left,.activity_box_middle,.activity_box_right{
+	padding: 1px;
+	width: 252px;
+	display: inline-block;
+}
+.activity_box_left{
+	margin: 60px 43px 60px 86px;
+	float: left;	
+}
+.activity_box_middle{
+	margin: 60px 43px 60px 0px;	
+}
+.activity_box_right{
+	margin: 60px 86px 60px 0px;
+	float: right;	
+}
+.activity img{
+	width: 250px;
+}
+
+			
